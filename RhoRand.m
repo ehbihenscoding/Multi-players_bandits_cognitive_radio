@@ -11,7 +11,7 @@ M = 6;     %number of player
 
 %%% paramètres de mesure
 sumcolisions = zeros(1,N);
-nbexp = 2;
+nbexp = 2000;
 
 %%% Generation of the probability for mu
 %mu = rand(K,1);

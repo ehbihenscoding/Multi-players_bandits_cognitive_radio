@@ -10,7 +10,7 @@ K = 9;    %number of arm
 M = 6;     %number of player
 
 %%% special parameters for Musical Chairs
-T0 = 20;
+T0 = 10;
 
 %%% paramètres de mesure
 sumcolisions = zeros(1,N);

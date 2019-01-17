@@ -64,7 +64,7 @@ g{1} = mubar{1}; %because log(1)=0
 %%% Computation of Mhat
 for j=1:M
     [sortV,Ordre] = sort(g{1}(:,j));    %tri des valeurs de g
-    for m=0:M-1
+    for m=0:M-1 
         Mhat{1}(j,m+1) = Ordre(end-m); %on récupère indices des M plus grandes valeurs
     end
 end
